@@ -1,0 +1,30 @@
+{
+  "name": "distributed-energy-platform",
+  "version": "1.0.0",
+  "description": "A decentralized system for renewable energy trading using blockchain, IoT, and AI",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node-dev --respawn src/index.ts"
+  },
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.5.6",
+    "ts-node": "^10.9.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "keywords": [
+    "renewable",
+    "energy",
+    "blockchain",
+    "iot",
+    "ai",
+    "typescript"
+  ],
+  "author": "Parveen Singh",
+  "license": "MIT"
+}
